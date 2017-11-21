@@ -17,7 +17,7 @@ class NASA
 	public function getNearEarthObjects()
 	{
 		$apiUrl = 'https://api.nasa.gov/neo/rest/v1/feed';
-		$apiKey = 'N7LkblDsc5aen05FJqBQ8wU4qSdmsftwJagVK7UD';
+		$apiKey = 'API_KEY';
 
 		// Start Date
 		$startDate = date('Y-m-d', strtotime("-3 day"));
